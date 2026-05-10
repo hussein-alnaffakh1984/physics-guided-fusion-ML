@@ -1,0 +1,35 @@
+# =====================================================================
+# HIF-ML-Reliability — Python dependencies
+# Tested on Python 3.10 and 3.12 (Google Colab as of 2026)
+# =====================================================================
+
+# Numerical / scientific
+numpy>=1.26,<3.0
+pandas>=2.0,<3.0
+scipy>=1.10
+
+# Plotting
+matplotlib>=3.7
+seaborn>=0.13
+
+# Machine learning — core
+scikit-learn>=1.4
+xgboost>=2.0
+lightgbm>=4.0
+
+# Progress bars and HTTP
+tqdm>=4.65
+requests>=2.30
+
+# (Optional) EXFOR data interface — only needed if you want to re-pull
+# the raw data from scratch instead of using the bundled CSVs.
+x4i3>=1.2
+
+# (Optional) Notebook environment
+jupyter>=1.0
+ipykernel>=6.0
+
+# (Optional) Code quality (development)
+# black>=24.0
+# pytest>=7.0
+# pytest-cov>=4.0

@@ -1,0 +1,81 @@
+# =====================================================================
+# Byte-compiled / optimized / DLL files
+# =====================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =====================================================================
+# Distribution / packaging
+# =====================================================================
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =====================================================================
+# Virtual environments
+# =====================================================================
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# =====================================================================
+# Jupyter / IPython
+# =====================================================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+profile_default/
+ipython_config.py
+
+# =====================================================================
+# IDEs
+# =====================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# =====================================================================
+# Project-specific
+# =====================================================================
+# Keep the cleaned/feature CSVs (they are part of the artifact)
+# but ignore any large intermediate files
+data/raw/exfor_local_db_*/
+data/cache/
+
+# Ignore re-trained model snapshots — the canonical model is in models/best_model.pkl
+models/checkpoints/
+models/*.tmp
+
+# Ignore log files and temporary outputs
+logs/
+*.log
+*.tmp
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =====================================================================
+# Operating system
+# =====================================================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
